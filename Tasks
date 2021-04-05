@@ -1,4 +1,4 @@
-First Program:-
+1.First Program:-
 // Tax Calculating total tax for a list of 5 billing amount
 input:-
 input1=5;
@@ -42,4 +42,38 @@ class Taxcal{
         return sum;
     }
 }
-//
+//...................................End
+
+2.Second Program
+
+//Converting Inches to Feets....................Start
+
+
+import java.util.Scanner;
+class Inches{
+    public static void main(String [] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Maximum Size:");
+        int length=sc.nextInt();
+        int [] a=new int[length];
+        System.out.println("Enter Inches I will Convert into Feet:");
+        for(int i=0;i<length;i++)
+        {
+            a[i]=sc.nextInt();
+        }
+        System.out.println("Total Feets:="+inch(length,a));
+    }
+    static int inch(int length, int [] a)
+    {
+        int sum=0;
+        for(int i=0;i<length;i++)
+        {
+        sum+=a[i]/12;
+        }
+        return sum;
+    }
+    
+}
+//.......................................................End
+
