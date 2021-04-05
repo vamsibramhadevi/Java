@@ -1,3 +1,16 @@
+First Program:-
+// Tax Calculating total tax for a list of 5 billing amount
+input:-
+input1=5;
+input2=1000,2000,3000,4000,5000;
+
+output:-
+1000;
+
+Explination:-
+The first parameter(5) is the size of the array.Next is an array of billing amounts.for the first amount ,there will be 0 tax and for the next amount, it will be
+10% of(2000-1000)=100 and so on. The sum of all the tax amounts will be(0+100+200+300+400=1000).
+
 import java.util.Scanner;
 class Taxcal{
     public static void main(String [] args)
@@ -29,3 +42,4 @@ class Taxcal{
         return sum;
     }
 }
+//
